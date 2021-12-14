@@ -2,7 +2,6 @@ import React, { createContext, useState, useEffect } from "react";
 export const QuoteContext = createContext();
 
 export const QuoteProvider = (props) => {
-  //   const [Contador] = useState(0);
   const [Day, setDay] = useState([]);
   const [Random, setRandom] = useState([]);
   const [Quote, setQuote] = useState([]);
