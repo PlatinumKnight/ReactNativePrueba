@@ -8,7 +8,7 @@ export default function App() {
   return (
     <QuoteProvider>
       <NavigationContainer>
-        <StackNavigation1 />;
+        <StackNavigation1 />
       </NavigationContainer>
     </QuoteProvider>
   );
